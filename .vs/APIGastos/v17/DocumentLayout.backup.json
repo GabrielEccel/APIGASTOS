@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thoma\\OneDrive\\Documentos\\Faculdade\\3\u00BA ANO\\Topicos em Tecnologia\\Atividade API Gastos\\APIGastos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC2724D-E449-4DF8-94F1-BDC9EEE573CC}|APIGastos.csproj|c:\\users\\thoma\\onedrive\\documentos\\faculdade\\3\u00BA ano\\topicos em tecnologia\\atividade api gastos\\apigastos\\controllers\\gastoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC2724D-E449-4DF8-94F1-BDC9EEE573CC}|APIGastos.csproj|solutionrelative:controllers\\gastoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC2724D-E449-4DF8-94F1-BDC9EEE573CC}|APIGastos.csproj|c:\\users\\thoma\\onedrive\\documentos\\faculdade\\3\u00BA ano\\topicos em tecnologia\\atividade api gastos\\apigastos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BC2724D-E449-4DF8-94F1-BDC9EEE573CC}|APIGastos.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC2724D-E449-4DF8-94F1-BDC9EEE573CC}|APIGastos.csproj|c:\\users\\thoma\\onedrive\\documentos\\faculdade\\3\u00BA ano\\topicos em tecnologia\\atividade api gastos\\apigastos\\migrations\\20250407230247_primeiramigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC2724D-E449-4DF8-94F1-BDC9EEE573CC}|APIGastos.csproj|solutionrelative:migrations\\20250407230247_primeiramigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\thoma\\OneDrive\\Documentos\\Faculdade\\3\u00BA ANO\\Topicos em Tecnologia\\Atividade API Gastos\\APIGastos\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\thoma\\OneDrive\\Documentos\\Faculdade\\3\u00BA ANO\\Topicos em Tecnologia\\Atividade API Gastos\\APIGastos\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T23:07:03.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250407230247_PrimeiraMigration.cs",
+              "DocumentMoniker": "C:\\Users\\thoma\\OneDrive\\Documentos\\Faculdade\\3\u00BA ANO\\Topicos em Tecnologia\\Atividade API Gastos\\APIGastos\\Migrations\\20250407230247_PrimeiraMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250407230247_PrimeiraMigration.cs",
+              "ToolTip": "C:\\Users\\thoma\\OneDrive\\Documentos\\Faculdade\\3\u00BA ANO\\Topicos em Tecnologia\\Atividade API Gastos\\APIGastos\\Migrations\\20250407230247_PrimeiraMigration.cs",
+              "RelativeToolTip": "Migrations\\20250407230247_PrimeiraMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:02:48.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GastosController.cs",
+              "DocumentMoniker": "C:\\Users\\thoma\\OneDrive\\Documentos\\Faculdade\\3\u00BA ANO\\Topicos em Tecnologia\\Atividade API Gastos\\APIGastos\\Controllers\\GastosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GastosController.cs",
+              "ToolTip": "C:\\Users\\thoma\\OneDrive\\Documentos\\Faculdade\\3\u00BA ANO\\Topicos em Tecnologia\\Atividade API Gastos\\APIGastos\\Controllers\\GastosController.cs",
+              "RelativeToolTip": "Controllers\\GastosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T20:04:20.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
