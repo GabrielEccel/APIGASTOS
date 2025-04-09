@@ -42,46 +42,47 @@ namespace APIGastos.Controllers
             {
                 return NotFound();
             }
-
+                
             return gasto;
         }
 
+        [HttpPost]
+        public async Task<ActionResult<Gasto>> PostGasto([FromBody] Gasto gasto)
+        {
+            if (gasto.Id != 0)
+            {
+                return BadRequest("Novo gasto não deve conter ID. Remova a propriedade Id ou defina como 0.");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            _context.Gastos.Add(gasto);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetGasto), new { id = gasto.Id }, gasto);
+        }
+
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutGasto(int id, Gasto gasto)
+        public async Task<IActionResult> PutGasto(int id, [FromBody] Gasto gasto)
         {
             if (id != gasto.Id)
             {
-                return BadRequest();
+                return BadRequest("ID na URL não corresponde ao ID no objeto");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
             }
 
             _context.Entry(gasto).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!GastoExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            await _context.SaveChangesAsync();  
 
             return NoContent();
-        }
-
-        [HttpPost]
-        public async Task<ActionResult<Gasto>> PostGasto(Gasto gasto)
-        {
-            _context.Gastos.Add(gasto);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetGasto", new { id = gasto.Id }, gasto);
         }
 
         [HttpDelete("{id}")]

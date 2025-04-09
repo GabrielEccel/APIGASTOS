@@ -167,3 +167,4 @@ C:\Users\thoma\OneDrive\Documentos\Faculdade\3º ANO\Topicos em Tecnologia\Ativi
 C:\Users\thoma\OneDrive\Documentos\Faculdade\3º ANO\Topicos em Tecnologia\Atividade API Gastos\APIGastos\obj\Debug\net8.0\APIGastos.pdb
 C:\Users\thoma\OneDrive\Documentos\Faculdade\3º ANO\Topicos em Tecnologia\Atividade API Gastos\APIGastos\obj\Debug\net8.0\APIGastos.genruntimeconfig.cache
 C:\Users\thoma\OneDrive\Documentos\Faculdade\3º ANO\Topicos em Tecnologia\Atividade API Gastos\APIGastos\obj\Debug\net8.0\ref\APIGastos.dll
+C:\Users\thoma\OneDrive\Documentos\Faculdade\3º ANO\Topicos em Tecnologia\Atividade API Gastos\APIGastos\obj\Debug\net8.0\APIGastos.sourcelink.json
